@@ -66,6 +66,14 @@ p {
   cursor: pointer;
 }
 
+.first button a {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  text-decoration: none;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
 .second button {
   background-color: hsl(0, 0%, 95%);
   color: hsl(184, 100%, 22%);
@@ -79,6 +87,14 @@ p {
   cursor: pointer;
 }
 
+.second button a {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  text-decoration: none;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
 .third button {
   background-color: hsl(0, 0%, 95%);
   color: hsl(179, 100%, 13%);
@@ -89,6 +105,14 @@ p {
   border-radius: 30px;
   margin-top: 45px;
   transition: 0.4s;
+  cursor: pointer;
+}
+
+.third button a {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+  text-decoration: none;
+  border: 2px solid transparent;
   cursor: pointer;
 }
 
