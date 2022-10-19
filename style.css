@@ -95,3 +95,42 @@ p {
 button:hover {
   transform: scale(1.2);
 }
+
+.Grid {
+  background: #000000c7;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.item0 {
+  background: orangered;
+  color: white;
+  padding: 60px;
+}
+.item1 {
+  background: orange;
+  color: white;
+  padding: 10px;
+}
+.item2 {
+  background: green;
+  color: white;
+  padding: 40px;
+}
+.item3 {
+  background: skyblue;
+  color: white;
+  padding: 10px;
+}
+.item4 {
+  background: skyblue;
+  color: white;
+  padding: 10px;
+}
